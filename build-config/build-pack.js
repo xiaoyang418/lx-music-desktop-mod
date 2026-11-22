@@ -11,6 +11,9 @@ const afterPack = require('./build-after-pack')
 const options = {
   appId: 'cn.toside.music.desktop',
   productName: 'lx-music-desktop',
+  // 本项目已自带 better-sqlite3 等原生模块的预编译文件，不需要也不应重新编译
+  // （部分环境没有 Visual Studio，且路径含空格时 node-gyp 会失败）
+  npmRebuild: false,
   beforePack,
   afterPack,
   protocols: {
