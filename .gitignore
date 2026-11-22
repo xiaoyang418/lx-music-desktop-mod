@@ -71,3 +71,6 @@ publish/assets
 publish/utils/githubToken.js
 
 src/**/*-internal.js
+
+# 本地发布的安装包（不要提交，改用 GitHub Releases）
+release/

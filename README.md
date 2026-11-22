@@ -81,7 +81,6 @@
 | `src/renderer/core/useApp/usePlayer/useMediaDevice.ts` | 音频设备选择与兜底 |
 | `build-config/runner-dev.js` | 开发模式支持使用外部 Electron 运行时 |
 | `src/lang/zh-cn.json`、`zh-tw.json`、`en-us.json`、`ko-kr.json` | 新增播放队列相关文案 |
-| `本地开发环境说明.md` | 本机开发环境与常见问题记录 |
 
 </details>
 
